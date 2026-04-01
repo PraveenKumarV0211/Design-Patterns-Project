@@ -1,7 +1,7 @@
 package com.example.demo.service;
 
-import com.jobtracker.model.User;
-import com.jobtracker.repository.UserRepository;
+import com.example.demo.model.User;
+import com.example.demo.repository.UserRepository;
 import org.springframework.security.core.userdetails.*;
 import org.springframework.stereotype.Service;
 import java.util.Collections;

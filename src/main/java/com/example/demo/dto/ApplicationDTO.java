@@ -1,7 +1,7 @@
-package com.jobtracker.dto;
+package com.example.demo.dto;
 
-import com.jobtracker.enums.ApplicationStatus;
-import com.jobtracker.enums.JobType;
+import com.example.demo.enums.ApplicationStatus;
+import com.example.demo.enums.JobType;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;

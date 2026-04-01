@@ -1,11 +1,11 @@
 package com.example.demo.service;
 
-import com.jobtracker.dto.ReminderDTO;
-import com.jobtracker.exception.ResourceNotFoundException;
-import com.jobtracker.model.Application;
-import com.jobtracker.model.Reminder;
-import com.jobtracker.repository.ApplicationRepository;
-import com.jobtracker.repository.ReminderRepository;
+import com.example.demo.dto.ReminderDTO;
+import com.example.demo.exception.ResourceNotFoundException;
+import com.example.demo.model.Application;
+import com.example.demo.model.Reminder;
+import com.example.demo.repository.ApplicationRepository;
+import com.example.demo.repository.ReminderRepository;
 import org.springframework.stereotype.Service;
 import java.time.LocalDate;
 import java.util.List;
