@@ -1,8 +1,8 @@
 package com.example.demo.model;
 
 
-import com.jobtracker.enums.ApplicationStatus;
-import com.jobtracker.enums.JobType;
+import com.example.demo.enums.ApplicationStatus;
+import com.example.demo.enums.JobType;
 import jakarta.persistence.*;
 import lombok.*;
 import java.time.LocalDate;

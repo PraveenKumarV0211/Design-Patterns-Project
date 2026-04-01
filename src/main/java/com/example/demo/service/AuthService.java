@@ -1,4 +1,4 @@
-package com.jobtracker.service;
+package com.example.demo.service;
 
 import com.jobtracker.dto.LoginDTO;
 import com.jobtracker.dto.RegisterDTO;

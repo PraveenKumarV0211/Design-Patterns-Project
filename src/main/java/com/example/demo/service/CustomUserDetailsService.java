@@ -1,4 +1,4 @@
-package com.jobtracker.service;
+package com.example.demo.service;
 
 import com.jobtracker.model.User;
 import com.jobtracker.repository.UserRepository;

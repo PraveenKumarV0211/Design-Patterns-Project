@@ -1,4 +1,4 @@
-package com.jobtracker.service;
+package com.example.demo.service;
 
 import com.jobtracker.dto.ReminderDTO;
 import com.jobtracker.exception.ResourceNotFoundException;
