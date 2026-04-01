@@ -15,6 +15,7 @@ jarRepositories.xml
 misc.xml
 vcs.xml
 workspace.xml
+*.class
 
 HELP.md
 ../mvnw
