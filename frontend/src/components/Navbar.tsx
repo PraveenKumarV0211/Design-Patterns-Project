@@ -27,6 +27,7 @@ const Navbar: React.FC = () => {
           <>
             <Link to="/dashboard" style={linkStyle}>Dashboard</Link>
             <Link to="/applications" style={linkStyle}>Applications</Link>
+            <Link to="/resume" style={linkStyle}>Resume</Link>
             <button onClick={handleLogout}
               style={{ background: '#e94560', color: '#fff', border: 'none', padding: '6px 14px', borderRadius: 4, cursor: 'pointer' }}>
               Logout
