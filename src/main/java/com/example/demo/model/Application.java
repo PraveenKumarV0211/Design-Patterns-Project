@@ -3,6 +3,7 @@ package com.example.demo.model;
 
 import com.example.demo.enums.ApplicationStatus;
 import com.example.demo.enums.JobType;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 import java.time.LocalDate;
@@ -37,10 +38,18 @@ public class Application {
 
     private String notes;
 
+    private String referralInfo;
+
+    private Double salaryDetails;
+
+    private String interviewNotes;
+
+    @JsonIgnore
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "application", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Reminder> reminders = new ArrayList<>();
 }

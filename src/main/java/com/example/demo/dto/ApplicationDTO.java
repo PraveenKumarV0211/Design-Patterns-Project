@@ -23,4 +23,7 @@ public class ApplicationDTO {
     private LocalDate applicationDate;
     private ApplicationStatus status;
     private String notes;
+    private String referralInfo;
+    private Double salaryDetails;
+    private String interviewNotes;
 }

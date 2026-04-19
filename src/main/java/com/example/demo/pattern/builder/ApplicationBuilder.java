@@ -1,9 +1,9 @@
-package com.jobtracker.pattern.builder;
+package com.example.demo.pattern.builder;
 
-import com.jobtracker.enums.ApplicationStatus;
-import com.jobtracker.enums.JobType;
-import com.jobtracker.model.Application;
-import com.jobtracker.model.User;
+import com.example.demo.enums.ApplicationStatus;
+import com.example.demo.enums.JobType;
+import com.example.demo.model.Application;
+import com.example.demo.model.User;
 import java.time.LocalDate;
 
 public class ApplicationBuilder {
